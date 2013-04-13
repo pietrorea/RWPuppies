@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7EF64CD42E4D7F877CBA73 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D76898E1F29A43168D96A75E /* libPods.a */; };
+		9593E87916D28749001F0165 /* RWCheckoutDisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593E87016D28749001F0165 /* RWCheckoutDisplayCell.m */; };
+		9593E87A16D28749001F0165 /* RWCheckoutInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593E87216D28749001F0165 /* RWCheckoutInputCell.m */; };
+		9593E87B16D28749001F0165 /* RWCheckoutPuppyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593E87416D28749001F0165 /* RWCheckoutPuppyCell.m */; };
+		9593E87C16D28749001F0165 /* RWInventoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593E87616D28749001F0165 /* RWInventoryCell.m */; };
+		9593E87D16D28749001F0165 /* RWSubtotalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593E87816D28749001F0165 /* RWSubtotalCell.m */; };
+		95BAE94916D2076200198BBF /* RWPuppies.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BAE94816D2076200198BBF /* RWPuppies.m */; };
+		FE3523DD169501B700823E73 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = FE3523DC169501B700823E73 /* attribution.txt */; };
+		FEAC7F2C16C8891500107A35 /* RWEmailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAC7F2B16C8891500107A35 /* RWEmailManager.m */; };
+		FEDF850716816CA8006AB7B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDF850616816CA8006AB7B0 /* UIKit.framework */; };
+		FEDF850916816CA8006AB7B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDF850816816CA8006AB7B0 /* Foundation.framework */; };
+		FEDF850B16816CA8006AB7B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDF850A16816CA8006AB7B0 /* CoreGraphics.framework */; };
+		FEDF851116816CA8006AB7B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEDF850F16816CA8006AB7B0 /* InfoPlist.strings */; };
+		FEDF851316816CA8006AB7B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF851216816CA8006AB7B0 /* main.m */; };
+		FEDF851716816CA8006AB7B0 /* RWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF851616816CA8006AB7B0 /* RWAppDelegate.m */; };
+		FEDF851916816CA8006AB7B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF851816816CA8006AB7B0 /* Default.png */; };
+		FEDF851B16816CA8006AB7B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF851A16816CA8006AB7B0 /* Default@2x.png */; };
+		FEDF851D16816CA8006AB7B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF851C16816CA8006AB7B0 /* Default-568h@2x.png */; };
+		FEDF852016816CA8006AB7B0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDF851E16816CA8006AB7B0 /* MainStoryboard.storyboard */; };
+		FEDF853C16816FD7006AB7B0 /* RWFeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF853A16816FD7006AB7B0 /* RWFeaturedViewController.m */; };
+		FEDF854016817000006AB7B0 /* RWInventoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF853F16817000006AB7B0 /* RWInventoryViewController.m */; };
+		FEDF85431681701D006AB7B0 /* RWCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF85421681701D006AB7B0 /* RWCheckoutViewController.m */; };
+		FEDF854916817135006AB7B0 /* 259-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF854416817135006AB7B0 /* 259-list@2x.png */; };
+		FEDF854A16817135006AB7B0 /* 80-shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF854516817135006AB7B0 /* 80-shopping-cart.png */; };
+		FEDF854B16817135006AB7B0 /* 80-shopping-cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF854616817135006AB7B0 /* 80-shopping-cart@2x.png */; };
+		FEDF854C16817135006AB7B0 /* 82-dog-paw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF854716817135006AB7B0 /* 82-dog-paw@2x.png */; };
+		FEDF854D16817135006AB7B0 /* 82-dog-paw.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF854816817135006AB7B0 /* 82-dog-paw.png */; };
+		FEDF854F16817156006AB7B0 /* 259-list.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDF854E16817156006AB7B0 /* 259-list.png */; };
+		FEDF855116817D8B006AB7B0 /* dogs.json in Resources */ = {isa = PBXBuildFile; fileRef = FEDF855016817D8B006AB7B0 /* dogs.json */; };
+		FEDF855416817DFC006AB7B0 /* RWPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF855316817DFC006AB7B0 /* RWPuppy.m */; };
+		FEDF85781688B0BF006AB7B0 /* placeholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FEDF85771688B0BF006AB7B0 /* placeholder.jpeg */; };
+		FEDF857E168A57E9006AB7B0 /* RWPuppyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF857D168A57E8006AB7B0 /* RWPuppyViewController.m */; };
+		FEDF8581168A7FC7006AB7B0 /* RWCheckoutCart.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF8580168A7FC7006AB7B0 /* RWCheckoutCart.m */; };
+		FEDF858E168AB4E2006AB7B0 /* RWStripeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF858D168AB4E1006AB7B0 /* RWStripeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9593E86F16D28749001F0165 /* RWCheckoutDisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWCheckoutDisplayCell.h; path = RWPuppies/RWCheckoutDisplayCell.h; sourceTree = SOURCE_ROOT; };
+		9593E87016D28749001F0165 /* RWCheckoutDisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWCheckoutDisplayCell.m; path = RWPuppies/RWCheckoutDisplayCell.m; sourceTree = SOURCE_ROOT; };
+		9593E87116D28749001F0165 /* RWCheckoutInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWCheckoutInputCell.h; path = RWPuppies/RWCheckoutInputCell.h; sourceTree = SOURCE_ROOT; };
+		9593E87216D28749001F0165 /* RWCheckoutInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWCheckoutInputCell.m; path = RWPuppies/RWCheckoutInputCell.m; sourceTree = SOURCE_ROOT; };
+		9593E87316D28749001F0165 /* RWCheckoutPuppyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWCheckoutPuppyCell.h; path = RWPuppies/RWCheckoutPuppyCell.h; sourceTree = SOURCE_ROOT; };
+		9593E87416D28749001F0165 /* RWCheckoutPuppyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWCheckoutPuppyCell.m; path = RWPuppies/RWCheckoutPuppyCell.m; sourceTree = SOURCE_ROOT; };
+		9593E87516D28749001F0165 /* RWInventoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWInventoryCell.h; path = RWPuppies/RWInventoryCell.h; sourceTree = SOURCE_ROOT; };
+		9593E87616D28749001F0165 /* RWInventoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWInventoryCell.m; path = RWPuppies/RWInventoryCell.m; sourceTree = SOURCE_ROOT; };
+		9593E87716D28749001F0165 /* RWSubtotalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWSubtotalCell.h; path = RWPuppies/RWSubtotalCell.h; sourceTree = SOURCE_ROOT; };
+		9593E87816D28749001F0165 /* RWSubtotalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWSubtotalCell.m; path = RWPuppies/RWSubtotalCell.m; sourceTree = SOURCE_ROOT; };
+		95BAE94716D2076200198BBF /* RWPuppies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWPuppies.h; sourceTree = "<group>"; };
+		95BAE94816D2076200198BBF /* RWPuppies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWPuppies.m; sourceTree = "<group>"; };
+		D76898E1F29A43168D96A75E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C695A99777470EB61DA492 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		FE3523DC169501B700823E73 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		FEAC7F2A16C8891500107A35 /* RWEmailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWEmailManager.h; sourceTree = "<group>"; };
+		FEAC7F2B16C8891500107A35 /* RWEmailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWEmailManager.m; sourceTree = "<group>"; };
+		FEDF850216816CA8006AB7B0 /* RWPuppies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWPuppies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDF850616816CA8006AB7B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEDF850816816CA8006AB7B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEDF850A16816CA8006AB7B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEDF850E16816CA8006AB7B0 /* RWPuppies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RWPuppies-Info.plist"; sourceTree = "<group>"; };
+		FEDF851016816CA8006AB7B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEDF851216816CA8006AB7B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEDF851416816CA8006AB7B0 /* RWPuppies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RWPuppies-Prefix.pch"; sourceTree = "<group>"; };
+		FEDF851516816CA8006AB7B0 /* RWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWAppDelegate.h; sourceTree = "<group>"; };
+		FEDF851616816CA8006AB7B0 /* RWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWAppDelegate.m; sourceTree = "<group>"; };
+		FEDF851816816CA8006AB7B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FEDF851A16816CA8006AB7B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FEDF851C16816CA8006AB7B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEDF851F16816CA8006AB7B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FEDF853916816FD7006AB7B0 /* RWFeaturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWFeaturedViewController.h; sourceTree = "<group>"; };
+		FEDF853A16816FD7006AB7B0 /* RWFeaturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWFeaturedViewController.m; sourceTree = "<group>"; };
+		FEDF853E16817000006AB7B0 /* RWInventoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWInventoryViewController.h; sourceTree = "<group>"; };
+		FEDF853F16817000006AB7B0 /* RWInventoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWInventoryViewController.m; sourceTree = "<group>"; };
+		FEDF85411681701D006AB7B0 /* RWCheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWCheckoutViewController.h; sourceTree = "<group>"; };
+		FEDF85421681701D006AB7B0 /* RWCheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWCheckoutViewController.m; sourceTree = "<group>"; };
+		FEDF854416817135006AB7B0 /* 259-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "259-list@2x.png"; sourceTree = "<group>"; };
+		FEDF854516817135006AB7B0 /* 80-shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-shopping-cart.png"; sourceTree = "<group>"; };
+		FEDF854616817135006AB7B0 /* 80-shopping-cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-shopping-cart@2x.png"; sourceTree = "<group>"; };
+		FEDF854716817135006AB7B0 /* 82-dog-paw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "82-dog-paw@2x.png"; sourceTree = "<group>"; };
+		FEDF854816817135006AB7B0 /* 82-dog-paw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "82-dog-paw.png"; sourceTree = "<group>"; };
+		FEDF854E16817156006AB7B0 /* 259-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "259-list.png"; sourceTree = "<group>"; };
+		FEDF855016817D8B006AB7B0 /* dogs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogs.json; sourceTree = "<group>"; };
+		FEDF855216817DFC006AB7B0 /* RWPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWPuppy.h; sourceTree = "<group>"; };
+		FEDF855316817DFC006AB7B0 /* RWPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWPuppy.m; sourceTree = "<group>"; };
+		FEDF85771688B0BF006AB7B0 /* placeholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpeg; sourceTree = "<group>"; };
+		FEDF857C168A57E8006AB7B0 /* RWPuppyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWPuppyViewController.h; sourceTree = "<group>"; };
+		FEDF857D168A57E8006AB7B0 /* RWPuppyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWPuppyViewController.m; sourceTree = "<group>"; };
+		FEDF857F168A7FC7006AB7B0 /* RWCheckoutCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWCheckoutCart.h; sourceTree = "<group>"; };
+		FEDF8580168A7FC7006AB7B0 /* RWCheckoutCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWCheckoutCart.m; sourceTree = "<group>"; };
+		FEDF858C168AB4E1006AB7B0 /* RWStripeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWStripeViewController.h; sourceTree = "<group>"; };
+		FEDF858D168AB4E1006AB7B0 /* RWStripeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWStripeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDF84FF16816CA8006AB7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDF850716816CA8006AB7B0 /* UIKit.framework in Frameworks */,
+				FEDF850916816CA8006AB7B0 /* Foundation.framework in Frameworks */,
+				FEDF850B16816CA8006AB7B0 /* CoreGraphics.framework in Frameworks */,
+				5E7EF64CD42E4D7F877CBA73 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEDF84F716816CA8006AB7B0 = {
+			isa = PBXGroup;
+			children = (
+				FEDF850C16816CA8006AB7B0 /* RWPuppies */,
+				FEDF850516816CA8006AB7B0 /* Frameworks */,
+				FEDF850316816CA8006AB7B0 /* Products */,
+				D8C695A99777470EB61DA492 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDF850316816CA8006AB7B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF850216816CA8006AB7B0 /* RWPuppies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDF850516816CA8006AB7B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF850616816CA8006AB7B0 /* UIKit.framework */,
+				FEDF850816816CA8006AB7B0 /* Foundation.framework */,
+				FEDF850A16816CA8006AB7B0 /* CoreGraphics.framework */,
+				D76898E1F29A43168D96A75E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEDF850C16816CA8006AB7B0 /* RWPuppies */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF851516816CA8006AB7B0 /* RWAppDelegate.h */,
+				FEDF851616816CA8006AB7B0 /* RWAppDelegate.m */,
+				FEDF851E16816CA8006AB7B0 /* MainStoryboard.storyboard */,
+				FEDF853916816FD7006AB7B0 /* RWFeaturedViewController.h */,
+				FEDF853A16816FD7006AB7B0 /* RWFeaturedViewController.m */,
+				FEDF853E16817000006AB7B0 /* RWInventoryViewController.h */,
+				FEDF853F16817000006AB7B0 /* RWInventoryViewController.m */,
+				FEDF85411681701D006AB7B0 /* RWCheckoutViewController.h */,
+				FEDF85421681701D006AB7B0 /* RWCheckoutViewController.m */,
+				FEDF857C168A57E8006AB7B0 /* RWPuppyViewController.h */,
+				FEDF857D168A57E8006AB7B0 /* RWPuppyViewController.m */,
+				FEDF858C168AB4E1006AB7B0 /* RWStripeViewController.h */,
+				FEDF858D168AB4E1006AB7B0 /* RWStripeViewController.m */,
+				FEDF857F168A7FC7006AB7B0 /* RWCheckoutCart.h */,
+				FEDF8580168A7FC7006AB7B0 /* RWCheckoutCart.m */,
+				FEAC7F2A16C8891500107A35 /* RWEmailManager.h */,
+				FEAC7F2B16C8891500107A35 /* RWEmailManager.m */,
+				FEDF855216817DFC006AB7B0 /* RWPuppy.h */,
+				FEDF855316817DFC006AB7B0 /* RWPuppy.m */,
+				95BAE94716D2076200198BBF /* RWPuppies.h */,
+				95BAE94816D2076200198BBF /* RWPuppies.m */,
+				FEDF8595168BF0DE006AB7B0 /* Cell Types */,
+				FEDF850D16816CA8006AB7B0 /* Supporting Files */,
+			);
+			path = RWPuppies;
+			sourceTree = "<group>";
+		};
+		FEDF850D16816CA8006AB7B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF850E16816CA8006AB7B0 /* RWPuppies-Info.plist */,
+				FEDF850F16816CA8006AB7B0 /* InfoPlist.strings */,
+				FEDF851216816CA8006AB7B0 /* main.m */,
+				FEDF851416816CA8006AB7B0 /* RWPuppies-Prefix.pch */,
+				FE3523DC169501B700823E73 /* attribution.txt */,
+				FEDF855016817D8B006AB7B0 /* dogs.json */,
+				FEDF85771688B0BF006AB7B0 /* placeholder.jpeg */,
+				FEDF851816816CA8006AB7B0 /* Default.png */,
+				FEDF851A16816CA8006AB7B0 /* Default@2x.png */,
+				FEDF851C16816CA8006AB7B0 /* Default-568h@2x.png */,
+				FEDF854716817135006AB7B0 /* 82-dog-paw@2x.png */,
+				FEDF854816817135006AB7B0 /* 82-dog-paw.png */,
+				FEDF854E16817156006AB7B0 /* 259-list.png */,
+				FEDF854416817135006AB7B0 /* 259-list@2x.png */,
+				FEDF854516817135006AB7B0 /* 80-shopping-cart.png */,
+				FEDF854616817135006AB7B0 /* 80-shopping-cart@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDF8595168BF0DE006AB7B0 /* Cell Types */ = {
+			isa = PBXGroup;
+			children = (
+				9593E87516D28749001F0165 /* RWInventoryCell.h */,
+				9593E87616D28749001F0165 /* RWInventoryCell.m */,
+				9593E87316D28749001F0165 /* RWCheckoutPuppyCell.h */,
+				9593E87416D28749001F0165 /* RWCheckoutPuppyCell.m */,
+				9593E87116D28749001F0165 /* RWCheckoutInputCell.h */,
+				9593E87216D28749001F0165 /* RWCheckoutInputCell.m */,
+				9593E86F16D28749001F0165 /* RWCheckoutDisplayCell.h */,
+				9593E87016D28749001F0165 /* RWCheckoutDisplayCell.m */,
+				9593E87716D28749001F0165 /* RWSubtotalCell.h */,
+				9593E87816D28749001F0165 /* RWSubtotalCell.m */,
+			);
+			path = "Cell Types";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEDF850116816CA8006AB7B0 /* RWPuppies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDF853116816CA8006AB7B0 /* Build configuration list for PBXNativeTarget "RWPuppies" */;
+			buildPhases = (
+				FEDF84FE16816CA8006AB7B0 /* Sources */,
+				FEDF84FF16816CA8006AB7B0 /* Frameworks */,
+				FEDF850016816CA8006AB7B0 /* Resources */,
+				C6C4120A076445A59585D783 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWPuppies;
+			productName = RWPuppies;
+			productReference = FEDF850216816CA8006AB7B0 /* RWPuppies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDF84F916816CA8006AB7B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pietro Rea";
+			};
+			buildConfigurationList = FEDF84FC16816CA8006AB7B0 /* Build configuration list for PBXProject "RWPuppies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEDF84F716816CA8006AB7B0;
+			productRefGroup = FEDF850316816CA8006AB7B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDF850116816CA8006AB7B0 /* RWPuppies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDF850016816CA8006AB7B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDF851116816CA8006AB7B0 /* InfoPlist.strings in Resources */,
+				FEDF851916816CA8006AB7B0 /* Default.png in Resources */,
+				FEDF851B16816CA8006AB7B0 /* Default@2x.png in Resources */,
+				FEDF851D16816CA8006AB7B0 /* Default-568h@2x.png in Resources */,
+				FEDF852016816CA8006AB7B0 /* MainStoryboard.storyboard in Resources */,
+				FEDF854916817135006AB7B0 /* 259-list@2x.png in Resources */,
+				FEDF854A16817135006AB7B0 /* 80-shopping-cart.png in Resources */,
+				FEDF854B16817135006AB7B0 /* 80-shopping-cart@2x.png in Resources */,
+				FEDF854C16817135006AB7B0 /* 82-dog-paw@2x.png in Resources */,
+				FEDF854D16817135006AB7B0 /* 82-dog-paw.png in Resources */,
+				FEDF854F16817156006AB7B0 /* 259-list.png in Resources */,
+				FEDF855116817D8B006AB7B0 /* dogs.json in Resources */,
+				FEDF85781688B0BF006AB7B0 /* placeholder.jpeg in Resources */,
+				FE3523DD169501B700823E73 /* attribution.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6C4120A076445A59585D783 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDF84FE16816CA8006AB7B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDF851316816CA8006AB7B0 /* main.m in Sources */,
+				FEDF851716816CA8006AB7B0 /* RWAppDelegate.m in Sources */,
+				FEDF853C16816FD7006AB7B0 /* RWFeaturedViewController.m in Sources */,
+				FEDF854016817000006AB7B0 /* RWInventoryViewController.m in Sources */,
+				FEDF85431681701D006AB7B0 /* RWCheckoutViewController.m in Sources */,
+				FEDF855416817DFC006AB7B0 /* RWPuppy.m in Sources */,
+				FEDF857E168A57E9006AB7B0 /* RWPuppyViewController.m in Sources */,
+				FEDF8581168A7FC7006AB7B0 /* RWCheckoutCart.m in Sources */,
+				FEDF858E168AB4E2006AB7B0 /* RWStripeViewController.m in Sources */,
+				FEAC7F2C16C8891500107A35 /* RWEmailManager.m in Sources */,
+				95BAE94916D2076200198BBF /* RWPuppies.m in Sources */,
+				9593E87916D28749001F0165 /* RWCheckoutDisplayCell.m in Sources */,
+				9593E87A16D28749001F0165 /* RWCheckoutInputCell.m in Sources */,
+				9593E87B16D28749001F0165 /* RWCheckoutPuppyCell.m in Sources */,
+				9593E87C16D28749001F0165 /* RWInventoryCell.m in Sources */,
+				9593E87D16D28749001F0165 /* RWSubtotalCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEDF850F16816CA8006AB7B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDF851016816CA8006AB7B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEDF851E16816CA8006AB7B0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDF851F16816CA8006AB7B0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDF852F16816CA8006AB7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEDF853016816CA8006AB7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEDF853216816CA8006AB7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C695A99777470EB61DA492 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RWPuppies/RWPuppies-Prefix.pch";
+				INFOPLIST_FILE = "RWPuppies/RWPuppies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEDF853316816CA8006AB7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C695A99777470EB61DA492 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RWPuppies/RWPuppies-Prefix.pch";
+				INFOPLIST_FILE = "RWPuppies/RWPuppies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDF84FC16816CA8006AB7B0 /* Build configuration list for PBXProject "RWPuppies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDF852F16816CA8006AB7B0 /* Debug */,
+				FEDF853016816CA8006AB7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDF853116816CA8006AB7B0 /* Build configuration list for PBXNativeTarget "RWPuppies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDF853216816CA8006AB7B0 /* Debug */,
+				FEDF853316816CA8006AB7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDF84F916816CA8006AB7B0 /* Project object */;
+}
